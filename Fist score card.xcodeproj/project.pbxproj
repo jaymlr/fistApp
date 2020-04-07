@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD126B8924351E2700A28DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD126B8824351E2700A28DCD /* AppDelegate.swift */; };
+		FD126B8B24351E2700A28DCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD126B8A24351E2700A28DCD /* SceneDelegate.swift */; };
+		FD126B9024351E2700A28DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD126B8E24351E2700A28DCD /* Main.storyboard */; };
+		FD126B9224351E2800A28DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD126B9124351E2800A28DCD /* Assets.xcassets */; };
+		FD126B9524351E2800A28DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD126B9324351E2800A28DCD /* LaunchScreen.storyboard */; };
+		FD126BA024351E2900A28DCD /* Fist_score_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD126B9F24351E2900A28DCD /* Fist_score_cardTests.swift */; };
+		FD126BAB24351E2900A28DCD /* Fist_score_cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD126BAA24351E2900A28DCD /* Fist_score_cardUITests.swift */; };
+		FD126BB9243550B300A28DCD /* bidPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD126BB8243550B300A28DCD /* bidPage.swift */; };
+		FD63C55C243AAAC100B0ECEE /* PlayerSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63C55B243AAAC100B0ECEE /* PlayerSelect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD126B9C24351E2900A28DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD126B7D24351E2700A28DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD126B8424351E2700A28DCD;
+			remoteInfo = "Fist score card";
+		};
+		FD126BA724351E2900A28DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD126B7D24351E2700A28DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD126B8424351E2700A28DCD;
+			remoteInfo = "Fist score card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD126B8524351E2700A28DCD /* Fist Score Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fist Score Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD126B8824351E2700A28DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD126B8A24351E2700A28DCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD126B8F24351E2700A28DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD126B9124351E2800A28DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD126B9424351E2800A28DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD126B9624351E2800A28DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD126B9B24351E2900A28DCD /* Fist score cardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fist score cardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD126B9F24351E2900A28DCD /* Fist_score_cardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fist_score_cardTests.swift; sourceTree = "<group>"; };
+		FD126BA124351E2900A28DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD126BA624351E2900A28DCD /* Fist score cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fist score cardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD126BAA24351E2900A28DCD /* Fist_score_cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fist_score_cardUITests.swift; sourceTree = "<group>"; };
+		FD126BAC24351E2900A28DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD126BB8243550B300A28DCD /* bidPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bidPage.swift; sourceTree = "<group>"; };
+		FD63C55B243AAAC100B0ECEE /* PlayerSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelect.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD126B8224351E2700A28DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD126B9824351E2900A28DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD126BA324351E2900A28DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD126B7C24351E2700A28DCD = {
+			isa = PBXGroup;
+			children = (
+				FD126B8724351E2700A28DCD /* Fist score card */,
+				FD126B9E24351E2900A28DCD /* Fist score cardTests */,
+				FD126BA924351E2900A28DCD /* Fist score cardUITests */,
+				FD126B8624351E2700A28DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD126B8624351E2700A28DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD126B8524351E2700A28DCD /* Fist Score Card.app */,
+				FD126B9B24351E2900A28DCD /* Fist score cardTests.xctest */,
+				FD126BA624351E2900A28DCD /* Fist score cardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD126B8724351E2700A28DCD /* Fist score card */ = {
+			isa = PBXGroup;
+			children = (
+				FD126B8824351E2700A28DCD /* AppDelegate.swift */,
+				FD126B8A24351E2700A28DCD /* SceneDelegate.swift */,
+				FD126B8E24351E2700A28DCD /* Main.storyboard */,
+				FD126B9124351E2800A28DCD /* Assets.xcassets */,
+				FD126B9324351E2800A28DCD /* LaunchScreen.storyboard */,
+				FD126B9624351E2800A28DCD /* Info.plist */,
+				FD126BB8243550B300A28DCD /* bidPage.swift */,
+				FD63C55B243AAAC100B0ECEE /* PlayerSelect.swift */,
+			);
+			path = "Fist score card";
+			sourceTree = "<group>";
+		};
+		FD126B9E24351E2900A28DCD /* Fist score cardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD126B9F24351E2900A28DCD /* Fist_score_cardTests.swift */,
+				FD126BA124351E2900A28DCD /* Info.plist */,
+			);
+			path = "Fist score cardTests";
+			sourceTree = "<group>";
+		};
+		FD126BA924351E2900A28DCD /* Fist score cardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD126BAA24351E2900A28DCD /* Fist_score_cardUITests.swift */,
+				FD126BAC24351E2900A28DCD /* Info.plist */,
+			);
+			path = "Fist score cardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD126B8424351E2700A28DCD /* Fist score card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD126BAF24351E2900A28DCD /* Build configuration list for PBXNativeTarget "Fist score card" */;
+			buildPhases = (
+				FD126B8124351E2700A28DCD /* Sources */,
+				FD126B8224351E2700A28DCD /* Frameworks */,
+				FD126B8324351E2700A28DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fist score card";
+			productName = "Fist score card";
+			productReference = FD126B8524351E2700A28DCD /* Fist Score Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD126B9A24351E2900A28DCD /* Fist score cardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD126BB224351E2900A28DCD /* Build configuration list for PBXNativeTarget "Fist score cardTests" */;
+			buildPhases = (
+				FD126B9724351E2900A28DCD /* Sources */,
+				FD126B9824351E2900A28DCD /* Frameworks */,
+				FD126B9924351E2900A28DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD126B9D24351E2900A28DCD /* PBXTargetDependency */,
+			);
+			name = "Fist score cardTests";
+			productName = "Fist score cardTests";
+			productReference = FD126B9B24351E2900A28DCD /* Fist score cardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD126BA524351E2900A28DCD /* Fist score cardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD126BB524351E2900A28DCD /* Build configuration list for PBXNativeTarget "Fist score cardUITests" */;
+			buildPhases = (
+				FD126BA224351E2900A28DCD /* Sources */,
+				FD126BA324351E2900A28DCD /* Frameworks */,
+				FD126BA424351E2900A28DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD126BA824351E2900A28DCD /* PBXTargetDependency */,
+			);
+			name = "Fist score cardUITests";
+			productName = "Fist score cardUITests";
+			productReference = FD126BA624351E2900A28DCD /* Fist score cardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD126B7D24351E2700A28DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Jay Miller";
+				TargetAttributes = {
+					FD126B8424351E2700A28DCD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					FD126B9A24351E2900A28DCD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FD126B8424351E2700A28DCD;
+					};
+					FD126BA524351E2900A28DCD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FD126B8424351E2700A28DCD;
+					};
+				};
+			};
+			buildConfigurationList = FD126B8024351E2700A28DCD /* Build configuration list for PBXProject "Fist score card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD126B7C24351E2700A28DCD;
+			productRefGroup = FD126B8624351E2700A28DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD126B8424351E2700A28DCD /* Fist score card */,
+				FD126B9A24351E2900A28DCD /* Fist score cardTests */,
+				FD126BA524351E2900A28DCD /* Fist score cardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD126B8324351E2700A28DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD126B9524351E2800A28DCD /* LaunchScreen.storyboard in Resources */,
+				FD126B9224351E2800A28DCD /* Assets.xcassets in Resources */,
+				FD126B9024351E2700A28DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD126B9924351E2900A28DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD126BA424351E2900A28DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD126B8124351E2700A28DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD126BB9243550B300A28DCD /* bidPage.swift in Sources */,
+				FD126B8924351E2700A28DCD /* AppDelegate.swift in Sources */,
+				FD63C55C243AAAC100B0ECEE /* PlayerSelect.swift in Sources */,
+				FD126B8B24351E2700A28DCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD126B9724351E2900A28DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD126BA024351E2900A28DCD /* Fist_score_cardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD126BA224351E2900A28DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD126BAB24351E2900A28DCD /* Fist_score_cardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD126B9D24351E2900A28DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD126B8424351E2700A28DCD /* Fist score card */;
+			targetProxy = FD126B9C24351E2900A28DCD /* PBXContainerItemProxy */;
+		};
+		FD126BA824351E2900A28DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD126B8424351E2700A28DCD /* Fist score card */;
+			targetProxy = FD126BA724351E2900A28DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD126B8E24351E2700A28DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD126B8F24351E2700A28DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD126B9324351E2800A28DCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD126B9424351E2800A28DCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD126BAD24351E2900A28DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD126BAE24351E2900A28DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD126BB024351E2900A28DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = WRNUFGW2WZ;
+				INFOPLIST_FILE = "Fist score card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevalyreangroup.fist;
+				PRODUCT_NAME = "Fist Score Card";
+				PROVISIONING_PROFILE_SPECIFIER = "Jays AdHoc";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD126BB124351E2900A28DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = WRNUFGW2WZ;
+				INFOPLIST_FILE = "Fist score card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevalyreangroup.fist;
+				PRODUCT_NAME = "Fist Score Card";
+				PROVISIONING_PROFILE_SPECIFIER = "Jays AdHoc";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FD126BB324351E2900A28DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fist score cardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmediasolutions.fist.Fist-score-cardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fist score card.app/Fist score card";
+			};
+			name = Debug;
+		};
+		FD126BB424351E2900A28DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fist score cardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmediasolutions.fist.Fist-score-cardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fist score card.app/Fist score card";
+			};
+			name = Release;
+		};
+		FD126BB624351E2900A28DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fist score cardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmediasolutions.fist.Fist-score-cardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fist score card";
+			};
+			name = Debug;
+		};
+		FD126BB724351E2900A28DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fist score cardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmediasolutions.fist.Fist-score-cardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fist score card";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD126B8024351E2700A28DCD /* Build configuration list for PBXProject "Fist score card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD126BAD24351E2900A28DCD /* Debug */,
+				FD126BAE24351E2900A28DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD126BAF24351E2900A28DCD /* Build configuration list for PBXNativeTarget "Fist score card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD126BB024351E2900A28DCD /* Debug */,
+				FD126BB124351E2900A28DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD126BB224351E2900A28DCD /* Build configuration list for PBXNativeTarget "Fist score cardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD126BB324351E2900A28DCD /* Debug */,
+				FD126BB424351E2900A28DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD126BB524351E2900A28DCD /* Build configuration list for PBXNativeTarget "Fist score cardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD126BB624351E2900A28DCD /* Debug */,
+				FD126BB724351E2900A28DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD126B7D24351E2700A28DCD /* Project object */;
+}
